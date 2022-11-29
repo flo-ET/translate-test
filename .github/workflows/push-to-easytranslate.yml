@@ -21,7 +21,7 @@ jobs:
         with:
           easytranslate_action: 'push'
           source_language: 'en'
-          source_root_folder: ''
+          source_root_folder: '/'
           translation_file_paths: '/**json'
           target_languages: 'da,de'
           access_token: ${{ secrets.EASYTRANSLATE_API_ACCESS_TOKEN }}
